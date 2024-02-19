@@ -13,7 +13,7 @@ class _iphonesDetails extends State<iphonesDetails> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(
+     bottomNavigationBar: BottomNavigationBar(
           currentIndex: selectedindex,
           onTap: (val) {
             setState(() {
@@ -29,6 +29,7 @@ class _iphonesDetails extends State<iphonesDetails> {
                   Icons.home_outlined,
                 ),
                 label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.person_2_outlined), label: "Account"),
             BottomNavigationBarItem(
@@ -43,11 +44,11 @@ class _iphonesDetails extends State<iphonesDetails> {
               Icons.local_gas_station,
             ),
             Text(
-              " Fixed ",
+              "Taf",
               style: TextStyle(color: Colors.black),
             ),
             Text(
-              "Car",
+              "wila",
               style: TextStyle(color: Colors.orange),
             ),
           ],
