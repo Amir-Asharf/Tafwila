@@ -13,7 +13,7 @@ class _AdapDetails extends State<AdapDetails> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: BottomNavigationBar(
+          bottomNavigationBar: BottomNavigationBar(
             currentIndex: selectedindex,
             onTap: (val) {
               setState(() {
@@ -29,6 +29,7 @@ class _AdapDetails extends State<AdapDetails> {
                     Icons.home_outlined,
                   ),
                   label: "Home"),
+              BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person_2_outlined), label: "Account"),
               BottomNavigationBarItem(
@@ -41,11 +42,11 @@ class _AdapDetails extends State<AdapDetails> {
             children: [
               Icon(Icons.electric_car_sharp),
               Text(
-                " Fixed ",
+                "Taf",
                 style: TextStyle(color: Colors.black),
               ),
               Text(
-                "Car",
+                "wila",
                 style: TextStyle(color: Colors.orange),
               ),
             ],
