@@ -29,6 +29,7 @@ class _shop extends State<shop> {
                     Icons.home_outlined,
                   ),
                   label: "Home"),
+              BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person_2_outlined), label: "Account"),
               BottomNavigationBarItem(
@@ -41,11 +42,11 @@ class _shop extends State<shop> {
             children: [
               Icon(Icons.add_shopping_cart),
               Text(
-                " Fixed ",
+                "Taf",
                 style: TextStyle(color: Colors.black),
               ),
               Text(
-                "Car",
+                "wila",
                 style: TextStyle(color: Colors.orange),
               ),
             ],
@@ -105,3 +106,4 @@ class _shop extends State<shop> {
         ));
   }
 }
+
