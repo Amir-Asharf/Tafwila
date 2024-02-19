@@ -29,6 +29,7 @@ class _itemsDetailsState extends State<itemsDetails> {
                   Icons.home_outlined,
                 ),
                 label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.person_2_outlined), label: "Account"),
             BottomNavigationBarItem(
@@ -41,11 +42,11 @@ class _itemsDetailsState extends State<itemsDetails> {
           children: [
             Icon(Icons.car_repair_outlined),
             Text(
-              " Fixed ",
+              "Taf",
               style: TextStyle(color: Colors.black),
             ),
             Text(
-              "Car",
+              "wila",
               style: TextStyle(color: Colors.orange),
             ),
           ],
